@@ -1,0 +1,14 @@
+CREATE TABLE master_ruang (
+    id_ruang INT PRIMARY KEY ,
+    nama_ruang NVARCHAR(100) NOT NULL,
+);
+
+
+INSERT INTO master_ruang (id_ruang, nama_ruang)
+VALUES
+(3, 'RPA'),
+(5, 'RPU'),
+(7, '(RPU) PERAWATAN UMUM'),
+(8, '(RPA) PERAWATAN ANAK'),
+(9, 'NEONATOLOGI(PERINATOLOGI'),
+(10, 'BERSALIN');
