@@ -1,0 +1,14 @@
+CREATE TABLE master_kamar (
+    id_kamar INT PRIMARY KEY,
+    ruang_id INT NOT NULL,
+	nama_kamar NVARCHAR(100) NOT NULL,
+);
+
+INSERT INTO master_kamar (id_kamar, ruang_id, nama_kamar)
+VALUES
+(16, 10, 'BERSALIN(VK)'),
+(28, 8, '(RPA) PERAWATAN ANAK'),
+(51, 9, 'NEONATOLOGI'),
+(65, 8, '(RPA) PERAWATAN ANAK'),
+(93, 7, '(RPU) PERAWATAN UMUM'),
+(229, 10, 'VK BAYI');
